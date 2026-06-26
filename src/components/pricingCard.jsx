@@ -17,7 +17,20 @@ const PricingCard = memo(function PricingCard({
 
   return (
 
+
     <div className="bg-[#172B36] rounded-3xl border border-white/10 p-8 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+
+  {plan.name === "Pro" && (
+    <div className="inline-block bg-[#FFC801] text-[#172B36] text-xs font-bold px-3 py-1 rounded-full mb-5">
+      MOST POPULAR
+    </div>
+  )}
+
+  {/* <h3 className="text-3xl font-bold">
+
+    {plan.name}
+
+  </h3> */}
 
       <h3 className="text-3xl font-bold">
 

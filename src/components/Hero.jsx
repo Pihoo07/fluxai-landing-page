@@ -85,13 +85,13 @@ export default function Hero() {
 
                 <h2 className="text-5xl font-bold mt-4">
 
-                  99%
+                  99.9%
 
                 </h2>
 
                 <p className="text-gray-400 mt-3">
 
-                  Workflow Completion
+                  Platform Uptime
 
                 </p>
 
@@ -120,13 +120,13 @@ export default function Hero() {
 
                 <h2 className="text-5xl font-bold mt-4">
 
-                  24M
+                  24M+
 
                 </h2>
 
                 <p className="text-gray-400 mt-3">
 
-                  Requests Processed
+                  API Requests
 
                 </p>
 

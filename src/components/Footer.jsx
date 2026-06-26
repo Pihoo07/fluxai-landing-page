@@ -44,7 +44,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 mt-10 pt-8 text-center text-gray-500">
 
-          © 2026 FluxAI. Built with React & Tailwind CSS.
+         © 2026 FluxAI. Designed & Developed with React, Vite and Tailwind CSS.
 
         </div>
 
