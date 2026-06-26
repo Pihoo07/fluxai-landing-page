@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  background:#0B1220;
+  color:white;
+  font-family:"Inter",sans-serif;
+}
+
+h1,h2,h3,h4{
+  font-family:"JetBrains Mono",monospace;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+::selection{
+  background:#FFC801;
+  color:#172B36;
+}
+
+@keyframes float{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-10px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}
+
+.float{
+animation:float 5s ease-in-out infinite;
+}
